@@ -1,0 +1,53 @@
+.container{
+  background-color: #009062;
+  min-height: 400px;
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+  justify-content:center;
+  align-items:center;
+  flex-wrap:nowrap;
+
+}
+.box2{
+  flex: 1 0 0px;
+}
+
+.box2{
+   
+}
+
+.box{
+  height:200px;
+  width: 200px;
+  background-color: rgb(9, 80, 172);
+  border: 1px solid rgb(198, 11, 11);
+
+}
+.outerbox{
+
+
+  display: flex;
+  flex-direction: row;
+} 
+p{
+  padding:10px;
+}
+.p1{
+  background-color: burlywood;
+  flex: 1;
+  order: 3;
+  
+}
+
+.p2{
+  background-color: rgb(222, 135, 210);
+  flex:1;
+  order: 1;
+}
+
+.p3{
+  background-color: rgb(2, 184, 50);
+  flex: 3;
+  order: 2;
+}
